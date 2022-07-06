@@ -1,0 +1,29 @@
+Assuming rdf:type as type relation
+Loading files... 
+  Starting kinship_triples.train
+  Finished kinship_triples.train, still running: 0
+Loaded 8544 facts in 98 ms using 16 MB
+Using HeadCoverage as pruning metric with minimum threshold 0.01
+Using recursivity limit 3
+Lazy mining assistant that stops counting when the denominator gets too high
+No minimum threshold on standard confidence
+Filtering on PCA confidence with minimum threshold 0.9
+Constants in the arguments of relations are disabled
+Lossless (query refinement) heuristics enabled
+MRT calls: 0
+Starting the mining phase... Using 4 threads
+Rule	Head Coverage	Std Confidence	PCA Confidence	Positive Examples	Body size	PCA Body size	Functional variable
+?b  term25  ?a   => ?a  term20  ?b	0.028708134	1	1	6	6	6	?a
+?f  term17  ?b  ?a  term19  ?f   => ?a  term22  ?b	0.019607843	0.166666667	1	3	18	3	?a
+?b  term21  ?f  ?a  term5  ?f   => ?a  term4  ?b	0.022900763	0.818181818	0.9	9	11	10	?a
+?b  term10  ?f  ?a  term24  ?f   => ?a  term21  ?b	0.018867925	0.333333333	1	2	6	2	?b
+?b  term24  ?f  ?f  term4  ?a   => ?a  term1  ?b	0.010416667	0.8	1	4	5	4	?b
+?a  term13  ?f  ?f  term24  ?b   => ?a  term1  ?b	0.0234375	0.9	0.9	9	10	10	?b
+?a  term24  ?f  ?f  term4  ?b   => ?a  term1  ?b	0.010416667	0.8	1	4	5	4	?b
+?b  term21  ?f  ?a  term9  ?f   => ?a  term8  ?b	0.01255887	1	1	8	8	8	?a
+?a  term14  ?f  ?b  term19  ?f   => ?a  term5  ?b	0.012376238	0.833333333	1	5	6	5	?a
+?a  term0  ?f  ?f  term24  ?b   => ?a  term5  ?b	0.012376238	1	1	5	5	5	?a
+?a  term14  ?f  ?f  term25  ?b   => ?a  term2  ?b	0.016393443	1	1	3	3	3	?b
+Mining done in 2.97 s
+Total time 3.17 s
+11 rules mined.

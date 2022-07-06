@@ -1,0 +1,132 @@
+Assuming rdf:type as type relation
+Loading files... 
+  Starting kinship_triples.train
+  Finished kinship_triples.train, still running: 0
+Loaded 8544 facts in 91 ms using 16 MB
+Using HeadCoverage as pruning metric with minimum threshold 0.01
+Using recursivity limit 3
+Lazy mining assistant that stops counting when the denominator gets too high
+No minimum threshold on standard confidence
+Filtering on PCA confidence with minimum threshold 0.6
+Constants in the arguments of relations are disabled
+Lossless (query refinement) heuristics enabled
+MRT calls: 0
+Starting the mining phase... Using 4 threads
+Rule	Head Coverage	Std Confidence	PCA Confidence	Positive Examples	Body size	PCA Body size	Functional variable
+?b  term22  ?a   => ?a  term22  ?b	0.679738562	0.679738562	0.693333333	104	153	150	?a
+?b  term4  ?a   => ?a  term4  ?b	0.697201018	0.697201018	0.722955145	274	393	379	?a
+?b  term10  ?a   => ?a  term11  ?b	0.401666667	0.614795918	0.617948718	241	392	390	?b
+?b  term18  ?a   => ?a  term18  ?b	0.747826087	0.747826087	0.75273523	344	460	457	?a
+?b  term25  ?a   => ?a  term20  ?b	0.028708134	1	1	6	6	6	?a
+?b  term20  ?a   => ?a  term20  ?b	0.612440191	0.612440191	0.649746193	128	209	197	?a
+?b  term19  ?a   => ?a  term8  ?b	0.010989011	0.7	0.7	7	10	10	?a
+?b  term2  ?a   => ?a  term1  ?b	0.333333333	0.699453552	0.699453552	128	183	183	?b
+?b  term5  ?a   => ?a  term15  ?b	0.402906209	0.754950495	0.756823821	305	404	403	?a
+?b  term6  ?a   => ?a  term15  ?b	0.371202114	0.759459459	0.780555556	281	370	360	?a
+?b  term0  ?a   => ?a  term0  ?b	0.724324324	0.724324324	0.740331492	134	185	181	?b
+?a  term21  ?f  ?b  term5  ?f   => ?a  term4  ?b	0.022900763	0.818181818	0.818181818	9	11	11	?a
+?b  term1  ?f  ?a  term25  ?f   => ?a  term4  ?b	0.030534351	0.705882353	0.705882353	12	17	17	?a
+?b  term21  ?f  ?a  term5  ?f   => ?a  term4  ?b	0.022900763	0.818181818	0.9	9	11	10	?a
+?f  term1  ?a  ?b  term25  ?f   => ?a  term4  ?b	0.03307888	0.722222222	0.764705882	13	18	17	?a
+?a  term1  ?f  ?b  term25  ?f   => ?a  term4  ?b	0.03562341	0.823529412	0.875	14	17	16	?a
+?f  term1  ?b  ?a  term25  ?f   => ?a  term4  ?b	0.027989822	0.611111111	0.611111111	11	18	18	?a
+?f  term19  ?b  ?a  term22  ?f   => ?a  term4  ?b	0.010178117	0.666666667	0.8	4	6	5	?a
+?e  term0  ?b  ?e  term25  ?a   => ?a  term4  ?b	0.025445293	0.769230769	0.769230769	10	13	13	?a
+?e  term25  ?a  ?e  term9  ?b   => ?a  term4  ?b	0.012722646	0.714285714	0.714285714	5	7	7	?a
+?e  term0  ?a  ?e  term25  ?b   => ?a  term4  ?b	0.022900763	0.692307692	0.692307692	9	13	13	?a
+?e  term19  ?b  ?e  term22  ?a   => ?a  term4  ?b	0.010178117	0.571428571	0.8	4	7	5	?a
+?a  term5  ?f  ?b  term7  ?f   => ?a  term13  ?b	0.021798365	0.571428571	0.666666667	8	14	12	?a
+?f  term2  ?a  ?b  term24  ?f   => ?a  term13  ?b	0.019073569	0.583333333	0.636363636	7	12	11	?a
+?a  term1  ?f  ?b  term24  ?f   => ?a  term13  ?b	0.024523161	0.75	0.75	9	12	12	?a
+?a  term14  ?f  ?f  term2  ?b   => ?a  term13  ?b	0.010899183	0.2	0.8	4	20	5	?a
+?a  term19  ?f  ?b  term3  ?f   => ?a  term22  ?b	0.013071895	0.181818182	0.666666667	2	11	3	?a
+?f  term17  ?b  ?a  term19  ?f   => ?a  term22  ?b	0.019607843	0.166666667	1	3	18	3	?a
+?e  term17  ?b  ?e  term25  ?a   => ?a  term10  ?b	0.030612245	0.52173913	0.6	12	23	20	?a
+?b  term20  ?f  ?f  term21  ?a   => ?a  term18  ?b	0.013043478	0.75	0.75	6	8	8	?a
+?a  term20  ?f  ?f  term21  ?b   => ?a  term18  ?b	0.010869565	0.625	0.625	5	8	8	?a
+?e  term17  ?b  ?e  term19  ?a   => ?a  term18  ?b	0.019565217	0.6	0.6	9	15	15	?a
+?e  term17  ?a  ?e  term19  ?b   => ?a  term18  ?b	0.019565217	0.6	0.6	9	15	15	?a
+?f  term25  ?b  ?a  term3  ?f   => ?a  term9  ?b	0.016216216	0.6	0.6	6	10	10	?a
+?e  term12  ?b  ?e  term14  ?a   => ?a  term9  ?b	0.02972973	0.578947368	0.611111111	11	19	18	?a
+?b  term14  ?f  ?f  term2  ?a   => ?a  term20  ?b	0.014354067	0.15	0.6	3	20	5	?a
+?a  term0  ?f  ?b  term25  ?f   => ?a  term20  ?b	0.023923445	0.333333333	0.625	5	15	8	?a
+?f  term24  ?b  ?a  term8  ?f   => ?a  term20  ?b	0.014354067	0.230769231	0.6	3	13	5	?a
+?a  term15  ?f  ?b  term19  ?f   => ?a  term20  ?b	0.043062201	0.310344828	0.642857143	9	29	14	?a
+?a  term1  ?f  ?f  term25  ?b   => ?a  term20  ?b	0.028708134	0.181818182	0.6	6	33	10	?a
+?e  term24  ?a  ?e  term8  ?b   => ?a  term20  ?b	0.028708134	0.4	0.75	6	15	8	?a
+?b  term10  ?f  ?a  term24  ?f   => ?a  term21  ?b	0.018867925	0.333333333	1	2	6	2	?b
+?f  term11  ?b  ?a  term24  ?f   => ?a  term21  ?b	0.037735849	0.444444444	0.8	4	9	5	?b
+?f  term2  ?b  ?a  term24  ?f   => ?a  term21  ?b	0.028301887	0.25	0.6	3	12	5	?b
+?f  term2  ?a  ?b  term22  ?f   => ?a  term6  ?b	0.197297297	0.646017699	0.646017699	73	113	113	?a
+?b  term14  ?f  ?a  term7  ?f   => ?a  term6  ?b	0.032432432	0.571428571	0.705882353	12	21	17	?a
+?f  term24  ?b  ?a  term7  ?f   => ?a  term6  ?b	0.02972973	0.733333333	0.846153846	11	15	13	?a
+?e  term11  ?a  ?e  term6  ?b   => ?a  term6  ?b	0.786486486	0.587878788	0.612631579	291	495	475	?a
+?e  term2  ?a  ?e  term6  ?b   => ?a  term6  ?b	0.216216216	0.666666667	0.666666667	80	120	120	?a
+?e  term2  ?a  ?e  term22  ?b   => ?a  term6  ?b	0.194594595	0.615384615	0.615384615	72	117	117	?a
+?b  term12  ?f  ?f  term25  ?a   => ?a  term3  ?b	0.010033445	0.6	0.6	3	5	5	?b
+?a  term10  ?f  ?f  term24  ?b   => ?a  term3  ?b	0.016722408	0.625	0.625	5	8	8	?b
+?b  term21  ?f  ?a  term9  ?f   => ?a  term8  ?b	0.01255887	1	1	8	8	8	?a
+?f  term20  ?b  ?a  term6  ?f   => ?a  term8  ?b	0.021978022	0.608695652	0.608695652	14	23	23	?a
+?f  term24  ?b  ?a  term4  ?f   => ?a  term8  ?b	0.010989011	0.7	0.7	7	10	10	?a
+?b  term24  ?f  ?a  term6  ?f   => ?a  term7  ?b	0.016591252	0.785714286	0.785714286	11	14	14	?a
+?f  term21  ?b  ?a  term6  ?f   => ?a  term7  ?b	0.49321267	0.603321033	0.605555556	327	542	540	?a
+?f  term24  ?b  ?a  term6  ?f   => ?a  term7  ?b	0.012066365	0.666666667	0.666666667	8	12	12	?a
+?e  term15  ?a  ?e  term21  ?b   => ?a  term7  ?b	0.466063348	0.611881188	0.611881188	309	505	505	?a
+?b  term13  ?f  ?a  term14  ?f   => ?a  term1  ?b	0.0234375	0.642857143	0.642857143	9	14	14	?b
+?f  term12  ?a  ?b  term25  ?f   => ?a  term1  ?b	0.013020833	0.454545455	0.833333333	5	11	6	?b
+?b  term24  ?f  ?f  term4  ?a   => ?a  term1  ?b	0.010416667	0.8	1	4	5	4	?b
+?a  term13  ?f  ?f  term24  ?b   => ?a  term1  ?b	0.0234375	0.9	0.9	9	10	10	?b
+?a  term24  ?f  ?f  term4  ?b   => ?a  term1  ?b	0.010416667	0.8	1	4	5	4	?b
+?f  term24  ?a  ?b  term7  ?f   => ?a  term15  ?b	0.01321004	0.666666667	0.666666667	10	15	15	?a
+?a  term14  ?f  ?b  term7  ?f   => ?a  term15  ?b	0.018494055	0.666666667	0.666666667	14	21	21	?a
+?a  term11  ?f  ?b  term5  ?f   => ?a  term15  ?b	0.688243065	0.605110337	0.614386792	521	861	848	?a
+?a  term25  ?f  ?b  term8  ?f   => ?a  term15  ?b	0.050198151	0.678571429	0.678571429	38	56	56	?a
+?b  term16  ?f  ?a  term25  ?f   => ?a  term15  ?b	0.036988111	0.717948718	0.717948718	28	39	39	?a
+?f  term5  ?a  ?b  term9  ?f   => ?a  term15  ?b	0.393659181	0.599597586	0.608163265	298	497	490	?a
+?a  term2  ?f  ?b  term22  ?f   => ?a  term15  ?b	0.157199472	0.619791667	0.619791667	119	192	192	?a
+?a  term19  ?f  ?b  term20  ?f   => ?a  term15  ?b	0.015852048	0.6	0.6	12	20	20	?a
+?f  term11  ?b  ?a  term15  ?f   => ?a  term15  ?b	0.791281374	0.60443996	0.60443996	599	991	991	?a
+?a  term15  ?f  ?f  term2  ?b   => ?a  term15  ?b	0.174372523	0.625592417	0.625592417	132	211	211	?a
+?f  term19  ?b  ?a  term20  ?f   => ?a  term15  ?b	0.039630119	0.681818182	0.681818182	30	44	44	?a
+?f  term2  ?b  ?a  term22  ?f   => ?a  term15  ?b	0.081902246	0.548672566	0.652631579	62	113	95	?a
+?f  term16  ?b  ?a  term25  ?f   => ?a  term15  ?b	0.050198151	0.775510204	0.775510204	38	49	49	?a
+?a  term25  ?f  ?f  term7  ?b   => ?a  term15  ?b	0.019815059	0.681818182	0.681818182	15	22	22	?a
+?a  term2  ?f  ?f  term22  ?b   => ?a  term15  ?b	0.154557464	0.661016949	0.661016949	117	177	177	?a
+?e  term11  ?b  ?e  term6  ?a   => ?a  term15  ?b	0.389696169	0.595959596	0.605749487	295	495	487	?a
+?e  term11  ?b  ?e  term5  ?a   => ?a  term15  ?b	0.424042272	0.611428571	0.61969112	321	525	518	?a
+?e  term2  ?b  ?e  term6  ?a   => ?a  term15  ?b	0.108322325	0.683333333	0.719298246	82	120	114	?a
+?e  term2  ?b  ?e  term5  ?a   => ?a  term15  ?b	0.066050198	0.595238095	0.641025641	50	84	78	?a
+?e  term19  ?b  ?e  term20  ?a   => ?a  term15  ?b	0.030383091	0.605263158	0.605263158	23	38	38	?a
+?f  term16  ?a  ?b  term25  ?f   => ?a  term5  ?b	0.074257426	0.612244898	0.612244898	30	49	49	?a
+?b  term25  ?f  ?a  term8  ?f   => ?a  term5  ?b	0.084158416	0.607142857	0.618181818	34	56	55	?a
+?a  term16  ?f  ?b  term25  ?f   => ?a  term5  ?b	0.059405941	0.615384615	0.648648649	24	39	37	?a
+?b  term25  ?f  ?f  term7  ?a   => ?a  term5  ?b	0.034653465	0.636363636	0.636363636	14	22	22	?a
+?f  term12  ?a  ?b  term19  ?f   => ?a  term5  ?b	0.02970297	0.545454545	0.6	12	22	20	?a
+?a  term12  ?f  ?b  term19  ?f   => ?a  term5  ?b	0.034653465	0.636363636	0.636363636	14	22	22	?a
+?a  term14  ?f  ?b  term19  ?f   => ?a  term5  ?b	0.012376238	0.833333333	1	5	6	5	?a
+?f  term13  ?a  ?b  term19  ?f   => ?a  term5  ?b	0.01980198	0.533333333	0.615384615	8	15	13	?a
+?a  term5  ?f  ?f  term9  ?b   => ?a  term5  ?b	0.809405941	0.605555556	0.605555556	327	540	540	?a
+?a  term17  ?f  ?b  term19  ?f   => ?a  term5  ?b	0.024752475	0.666666667	0.714285714	10	15	14	?a
+?a  term0  ?f  ?f  term24  ?b   => ?a  term5  ?b	0.012376238	1	1	5	5	5	?a
+?a  term16  ?f  ?f  term25  ?b   => ?a  term5  ?b	0.042079208	0.354166667	0.68	17	48	25	?a
+?e  term11  ?a  ?e  term5  ?b   => ?a  term5  ?b	0.794554455	0.611428571	0.617307692	321	525	520	?a
+?e  term2  ?a  ?e  term5  ?b   => ?a  term5  ?b	0.126237624	0.607142857	0.607142857	51	84	84	?a
+?e  term25  ?b  ?e  term8  ?a   => ?a  term5  ?b	0.014851485	0.285714286	0.666666667	6	21	9	?a
+?a  term25  ?f  ?f  term5  ?b   => ?a  term16  ?b	0.011952191	0.705882353	0.705882353	12	17	17	?b
+?e  term24  ?a  ?e  term4  ?b   => ?a  term16  ?b	0.010956175	0.846153846	0.846153846	11	13	13	?b
+?e  term14  ?b  ?e  term6  ?a   => ?a  term16  ?b	0.041832669	0.636363636	0.636363636	42	66	66	?b
+?f  term2  ?a  ?b  term2  ?f   => ?a  term0  ?b	0.108108108	0.588235294	0.714285714	20	34	28	?b
+?f  term2  ?b  ?a  term2  ?f   => ?a  term0  ?b	0.113513514	0.617647059	0.636363636	21	34	33	?b
+?e  term14  ?b  ?e  term4  ?a   => ?a  term0  ?b	0.086486486	0.372093023	0.727272727	16	43	22	?b
+?b  term13  ?f  ?f  term24  ?a   => ?a  term2  ?b	0.038251366	0.7	0.777777778	7	10	9	?b
+?a  term25  ?f  ?b  term3  ?f   => ?a  term2  ?b	0.021857923	0.266666667	0.666666667	4	15	6	?b
+?b  term17  ?f  ?a  term25  ?f   => ?a  term2  ?b	0.021857923	0.5	0.666666667	4	8	6	?b
+?b  term20  ?f  ?a  term25  ?f   => ?a  term2  ?b	0.021857923	0.25	0.666666667	4	16	6	?b
+?b  term14  ?f  ?a  term25  ?f   => ?a  term2  ?b	0.016393443	0.5	0.6	3	6	5	?b
+?f  term20  ?b  ?a  term25  ?f   => ?a  term2  ?b	0.021857923	0.222222222	0.8	4	18	5	?b
+?a  term14  ?f  ?f  term25  ?b   => ?a  term2  ?b	0.016393443	1	1	3	3	3	?b
+?e  term24  ?a  ?e  term3  ?b   => ?a  term2  ?b	0.016393443	0.5	0.75	3	6	4	?b
+?e  term21  ?b  ?e  term24  ?a   => ?a  term2  ?b	0.016393443	0.375	0.75	3	8	4	?b
+Mining done in 2.74 s
+Total time 2.94 s
+114 rules mined.
